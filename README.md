@@ -11,5 +11,5 @@ Desafio front-end - Grupo "El Comercio"
 
 ## Visualización del desafio
 ```
-[Desafio Front-end](https://gmanriqe.github.io/Desafio-Frontend-GEC/)
+[Desafio Front-end](https://gmanriqe.github.io/Desafio-Frontend/)
 ```
