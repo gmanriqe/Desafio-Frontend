@@ -1,0 +1,140 @@
+body {
+      font-family: 'Raleway', sans-serif;
+      margin: 0;
+}
+
+/*********** Header.container-header ************/
+.container-header {
+  background-color: #000;
+  height: 64px;
+  line-height: 64px;
+  width: 100%;
+}
+
+.container-header h1{
+  color: #dfdfdf;
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+}
+
+/*********** Div.container ************/
+.container {
+  margin: 0 auto;
+  max-width: 90%;
+  width: 980px;
+}
+
+.container section {
+  padding-top: 30px;
+}
+
+.form label {
+  font-size: 19px;
+}
+
+.enter-number {
+  border-radius: 3px;
+  font-size: 14px;
+  outline: none;
+  padding: 5px 7px;
+}
+
+.enter-number:focus {
+  background-color: lightgray;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #129cf3;
+  border-radius: 4px;
+  color: #129cf3;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  padding: 5px 7px;
+
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+}
+
+.btn:hover {
+  background-color: #129cf3;
+  border-color: #129cf3;
+  color: #fff;
+}
+
+.enteredNumberList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.enteredNumberList li {
+  display: inline-block;
+  background-color: red;
+  border: 1px solid rgb(68,68,68);
+  border-radius: 3px;
+  font-size: 16px;
+  height: 30px;
+  line-height: 28px;
+  margin-right: 3px;
+  overflow: hidden;
+  text-align: center;
+  width: 70px;
+
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+}
+
+hr {
+  margin: 0;
+}
+
+.container-order-number {
+  padding-top: 5px;
+}
+
+.container-button {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+
+@media screen and (max-width:525px) {
+
+/*********** Div.container ************/
+  .form label{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .form .enter-number {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .btn {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .enteredNumberList li { 
+    width: 67px;
+  }
+}

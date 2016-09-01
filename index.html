@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Desafio Front-end</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet"/>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <header class="container-header"> <!-- Container-header -->
+      <h1>Desafio Front-end</h1>
+    </header>
+    <div class="container"> <!-- Container -->
+      <section>
+        <form class="form" id="form">
+          <label for="enteredNumber">Ingrese Numero:</label>
+          <input type="number" id="enteredNumber" class="enter-number" autofocus required/>
+          <button type="submit" id="btnAddNumber" class="btn">Añadir Número</button>
+        </form>
+        <div>
+          <p>Números Ingresados:</p>
+          <ul id="enteredNumberList" class="enteredNumberList">
+            <!-- Lista que se irá generando conforme vayas añadiendo un número -->
+          </ul>
+        </div>
+        <hr>
+        <div class="container-order-number">
+          <h2>Números Ordenados Ascendentemente</h2>
+          <div class="container-button">
+            <button type="submit" id="btnOrderNumber" class="btn">Ordenar Ascendentemente</button> 
+            <button type="submit" id="btnReset" class="btn">Borrar</button>
+          </div>
+          <ul id="numberOrderedList" class="number-ordered-list enteredNumberList">
+            <!-- Lista de números ordenados ascendentemente -->
+          </ul>
+        </div>
+      </section>
+    </div>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+    <!-- Script -->
+    <script type="text/javascript" src="js/js.js"></script>
+  </body>
+</html>
